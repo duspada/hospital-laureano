@@ -4,7 +4,7 @@ import { Switch } from 'react-router-dom';
 
 import history from './history';
 
-import Private from './private';
+// import Private from './private';
 import Guest from './guest';
 
 import Main from '~/pages/Main';
@@ -16,7 +16,8 @@ const Routes = () => (
     <Switch>
       <Guest path="/signin" component={SignIn} />
       <Guest path="/signup" component={SignUp} />
-      <Private path="/" exact component={Main} />
+      {/* <Private path="/" exact component={Main} />  */}
+      <Guest path="/" exact component={Main} />
     </Switch>
   </ConnectedRouter>
 );

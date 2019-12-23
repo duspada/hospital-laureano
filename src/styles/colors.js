@@ -46,6 +46,11 @@ export const alertError = '#CC3030';
 export const alertWarning = darkYellow;
 export const alertText = white;
 
+export const primaryMain = '#049a43';
+export const primaryContrast = '#FFF';
+export const secondaryMain = '#6ACB9A';
+export const secondaryContrast = '#000';
+
 export default {
   black,
   lightBlack,
@@ -72,4 +77,8 @@ export default {
   alertError,
   alertWarning,
   alertText,
+  primaryMain,
+  primaryContrast,
+  secondaryMain,
+  secondaryContrast,
 };
